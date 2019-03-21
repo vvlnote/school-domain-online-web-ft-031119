@@ -17,11 +17,7 @@ class School
   end
   
   def grade(grade)
-    if roster.has_key?(grade)
-      roster[grade]
-    else
-      []
-    end
+    roster[grade]
   end
   
   def sort
