@@ -26,6 +26,5 @@ class School
       sorted_roster[key] = roster[grade].sort
     end
     sorted_roster
-  end 
   end
 end
