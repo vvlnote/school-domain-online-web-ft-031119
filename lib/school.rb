@@ -15,4 +15,12 @@ class School
       roster[grade] << student_name
     end
   end
+  
+  def grade(grade)
+    if roster.has_key(grade)
+      roster[grade]
+    else
+      []
+    end
+  end
 end
