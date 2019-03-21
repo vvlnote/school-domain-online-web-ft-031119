@@ -24,7 +24,7 @@ class School
     sorted_roster = {}
     roster.keys do |key|
       puts "#{key}"
-      sorted_roster[key] = roster[grade].sort
+      sorted_roster[key] = roster[key].sort
     end
     sorted_roster
   end
