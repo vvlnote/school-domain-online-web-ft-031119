@@ -22,7 +22,7 @@ class School
   
   def sort()
     sorted_roster = {}
-    roster.keys do |key|
+    roster do |key, students|
       puts "#{key}"
       sorted_roster[key] = roster[key].sort
     end
