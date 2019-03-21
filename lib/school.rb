@@ -26,7 +26,7 @@ class School
       puts "#{key}"
       sorted_roster[key] = students.sort
     end
-    sorted_roster
     puts "#{sroted_roster}"
+    sorted_roster
   end
 end
