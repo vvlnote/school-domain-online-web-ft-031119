@@ -20,5 +20,12 @@ class School
     roster[grade]
   end
   
-
+  def sort()
+    sorted_roster = {}
+    roster.keys.sort do |key|
+      sorted_roster[key] = roster[grade].sort
+    end
+    sorted_roster
+  end 
+  end
 end
